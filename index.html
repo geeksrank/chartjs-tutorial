@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coronavirus Cases on Chart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
+    <div class="container text-center">
+        <h4>Coronavirus Cases</h4>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                <canvas id="worldWideChart" height="300"></canvas>
+            </div>
+            <div class="col-sm-6">
+                <canvas id="compareChart" height="300"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="worldwide.js"></script>
+    <script src="comparechart.js"></script>
+</body>
+</html>
